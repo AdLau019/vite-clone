@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  top: 0;
+  background-color: rgb(23, 23, 24);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.container-body {
+  display: flex;
+  justify-content: space-center;
+  margin-top: 100px;
+  margin-left: 140px;
+  text-justify: center;
+  justify-items: center;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  margin-left: 150px;
+}
+
+.buttons {
+  margin-top: 30px;
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttons_1 {
+  background-color: rgb(100, 108, 255);
+}
+
+.buttons_2 {
+  background-color: rgb(37, 37, 41);
+}
+.containter-texto {
+  line-height: 36px;
+}
+
+.container-cards{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+}
+
+.cards{
+  margin-top: 50px;
+  margin-left: 130px;
+  border-radius: 10px;
+  padding: 24px;
+  height: 100%;
+  font-size: 16px;
+ 
+}
+
+h1 {
+  font-size: 56px;
+  background: linear-gradient(rgb(189, 52, 254) 30%, rgb(65, 209, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h2 {
+  font-size: 56px;
+}
+
+h3 {
+  font-size: 24px;
+  color:rgba(235, 235, 245, 0.6);
+}
+
+p{
+  font-size: 16px;
+}
+
+a {
+  color: white;
+  border-radius: 35px;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 11px 20px;
+  border: 0.1px solid white;
+}
+
+
+
+
